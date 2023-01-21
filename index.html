@@ -1,15 +1,175 @@
-<!-- index -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Title</title>
-</head>
-<body>
-    <h1>HELLO WORLD!</h1>
-    <h5>-charles here</h5>
+    <title>My Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+    
+<body>
+    <div id="slides">
+        <div class="overlay"></div>
+        
+        <div class="slides-container">
+            <img src="img/slide1.jpg" alt="">
+            <img src="img/slide2.jpg" alt="">
+            <img src="img/slide3.jpg" alt="">
+        </div>
+        
+        <div class="titleMessage">
+            <div class="heading">   
+                <p class="main">CHARLES EDISON OMNOS</p>
+                <P class="sub typed"></P>
+            </div>
+        </div>
+        
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+        </nav>
+    </div>
+    
+    <div id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="aboutImage" src="img/me.jpg">
+                </div>
+
+                <div class="col-md-7">
+                    <h2>My Name is Charles Edison C. Omnos</h2>
+                    <p>BSIT graduate, i love prigramming using JAVA, freeBASIC, vb.NETm C#, PHP, HTML, CSS, and etc.</p>
+                    <p>I'm blahblahblah blah blah blah blahblahblahblah blah blahblah blahblah blah blah</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="skills" class="skillsSection section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>TECHNICAL SKILLS</h2>
+                    <p>A representation of my proficiency in each skill</p>
+                </div>
+                
+                <div class="owl-carousel owl-theme">
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="60">
+                            <span class="percent">60</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>JAVA</h2>
+                        <p>For developing mobile apps, and desktop apps or softwares</p>
+                    </div>
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="75">
+                            <span class="percent">75</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>vb.NET</h2>
+                        <p>It's more easy for me to use it for developing softwares</p>
+                    </div>
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="40">
+                            <span class="percent">40</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>PHP</h2>
+                        <p>For backend side web development</p>
+                    </div>
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="75">
+                            <span class="percent">75</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>HTML</h2>
+                        <p>For web development</p>
+                    </div>
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="75">
+                            <span class="percent">75</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>CSS</h2>
+                        <p>For styling my web applications</p>
+                    </div>
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="80">
+                            <span class="percent">80</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>SQL</h2>
+                        <p>For database side of my developing softwares</p>
+                    </div>
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="25">
+                            <span class="percent">25</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>freeBasic</h2>
+                        <p>For developing dektop games, and softwares</p>
+                    </div>
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="20">
+                            <span class="percent">20</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>Python</h2>
+                        <p>I'm new, but I'm studying to improve</p>
+                    </div>
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="20">
+                            <span class="percent">20</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>C#</h2>
+                        <p>I'm new, but I'm studying to improve</p>
+                    </div>
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="25">
+                            <span class="percent">25</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>C</h2>
+                        <p>First programming language that I learned</p>
+                    </div>
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="25">
+                            <span class="percent">25</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h2>C++</h2>
+                        <p>Second programming language that I learned</p>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+    
+    <script src="js/typed.min.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </body>
 </html>
